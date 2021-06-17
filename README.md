@@ -1,4 +1,4 @@
 # japan
 日本九天八夜
 `Git:110/6/17`  
-網站 <https://bakerychu.ddns.net/japan>
+網站:<https://bakerychu.ddns.net/japan>
