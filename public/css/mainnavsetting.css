@@ -1,0 +1,53 @@
+@media only screen and (max-width:576px) {
+    .headerfont {
+        height: 80px;
+        position: absolute;
+        bottom: -100px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        outline: none;
+    }
+    .navstyle {
+        height: 100px;
+        position: relative;
+    }
+    .navli:active {
+        top: -5%;
+        transition: all 100ms ease;
+    }
+    .navi1 {
+        top: 5%;
+        left: 2%;
+    }
+    .navi2 {
+        top: 5%;
+        left: 20%;
+    }
+    .navi3 {
+        top: 5%;
+        right: 20%;
+    }
+    .navi4 {
+        top: 5%;
+        right: 2%;
+    }
+    .navicon {
+        border: none;
+        background-color: transparent;
+        background-size: cover;
+        height: 50px;
+        width: 50px;
+        outline: none;
+    }
+    .navfont {
+        text-align: center;
+        color: black;
+        font-size: 10px;
+        font-family: 'Yusei Magic', sans-serif;
+    }
+
+
+
+
+}

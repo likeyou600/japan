@@ -1,0 +1,319 @@
+@media only screen and (max-width:576px) {
+    .circle {
+        height: 15px;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        z-index: 1;
+        left: 0;
+    }
+    .site-inner {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .mobilediv {
+        width: 200%;
+        margin-left: -50%;
+    }
+    .circleicon {
+        height: 35px;
+        position: absolute;
+        bottom: -25px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        outline: none;
+    }
+    .userig {
+        background-image: url('../picture/ig.png');
+        border: none;
+        background-color: transparent;
+        background-size: cover;
+        height: 40px;
+        width: 40px;
+        position: fixed;
+        z-index: 3;
+        right: 30px;
+        top: 30px;
+        outline: none;
+    }
+    .bodybackground {
+        height: 2100px;
+        background-image: url('../picture/bodybackground.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+    .pointfont {
+        text-align: center;
+        color: black;
+        font-size: 15px;
+        font-family: 'Yusei Magic', sans-serif;
+        margin: 7px 0 0 0;
+    }
+    .picshadow {
+        box-shadow: 5px 5px 0 rgb(105 105 105 / 30%);
+    }
+    .picshadow:active {
+        opacity: 0.3;
+        transition: all 100ms ease;
+        width: 75%;
+    }
+    .mycontainer {
+        max-width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .fin {
+        width: 45%;
+    }
+    .staybackground {
+        height: 770px;
+        background-image: url('../picture/stay/stayground.png');
+        background-size: cover;
+        background-position: center;
+        margin-top: -150px;
+    }
+    .stayicon {
+        border: none;
+        background-color: transparent;
+        background-size: cover;
+        height: 140px;
+        width: 140px;
+        outline: none;
+    }
+    .stay1 {
+        top: 20%;
+        left: 10%;
+    }
+    .stay2 {
+        top: 20%;
+        right: 10%;
+    }
+    .stay3 {
+        top: 43%;
+        left: 10%;
+    }
+    .stay45 {
+        top: 43%;
+        right: 10%;
+    }
+    .stay6 {
+        top: 68%;
+        left: 10%;
+    }
+    .stay78 {
+        top: 68%;
+        right: 10%;
+    }
+    .stayfont {
+        text-align: center;
+        color: black;
+        font-size: 12px;
+        font-family: 'Yusei Magic', sans-serif;
+        margin: 7px 0 0 0;
+    }
+    .stay11:active {
+        opacity: 0.7;
+        top: 17%;
+        transition: all 100ms ease;
+    }
+    .stay22:active {
+        opacity: 0.7;
+        top: 41%;
+        transition: all 100ms ease;
+    }
+    .stay33:active {
+        opacity: 0.7;
+        top: 65%;
+        transition: all 100ms ease;
+    }
+}
+
+@media only screen and (min-width:576px) {
+    .circle {
+        height: 45px;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+    .circleicon {
+        height: 60px;
+        position: absolute;
+        bottom: -60px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        outline: none;
+    }
+    .headerfont {
+        height: 200px;
+        position: absolute;
+        bottom: -245px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        outline: none;
+    }
+    .userig {
+        background-image: url('../picture/ig.png');
+        border: none;
+        background-color: transparent;
+        background-size: cover;
+        height: 80px;
+        width: 80px;
+        position: fixed;
+        z-index: 3;
+        right: 30px;
+        top: 30px;
+        outline: none;
+    }
+    .navstyle {
+        height: 250px;
+        position: relative;
+    }
+    .navli:hover {
+        top: 5%;
+        transition: all 200ms ease;
+    }
+    .navi1 {
+        top: 10%;
+        left: 6%;
+    }
+    .navi2 {
+        top: 10%;
+        left: 20%;
+    }
+    .navi3 {
+        top: 10%;
+        right: 20%;
+    }
+    .navi4 {
+        top: 10%;
+        right: 6%;
+    }
+    .navicon {
+        border: none;
+        background-color: transparent;
+        background-size: cover;
+        height: 120px;
+        width: 120px;
+        outline: none;
+    }
+    .navfont {
+        text-align: center;
+        color: black;
+        font-size: 25px;
+        font-family: 'Yusei Magic', sans-serif;
+    }
+    .bodybackground {
+        height: 2000px;
+        background-image: url('../picture/bodybackground.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+    .pointfont {
+        text-align: center;
+        color: black;
+        font-size: 25px;
+        font-family: 'Yusei Magic', sans-serif;
+        margin: 7px 0 0 0;
+    }
+    .picshadow {
+        box-shadow: 10px 10px 0 rgb(105 105 105 / 30%);
+    }
+    .picshadow:hover {
+        opacity: 0.5;
+        transition: all 200ms ease;
+        width: 75%;
+    }
+    .mycontainer {
+        max-width: 1290px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .fin {
+        width: 80%;
+    }
+    .staybackground {
+        height: 450px;
+        background-image: url('../picture/stay/stayground.png');
+        background-size: cover;
+        background-position: center;
+    }
+    .stayicon {
+        border: none;
+        background-color: transparent;
+        background-size: cover;
+        height: 170px;
+        width: 170px;
+        outline: none;
+    }
+    .stay1 {
+        top: 15%;
+        left: 5%;
+    }
+    .stay2 {
+        top: 35%;
+        left: 20%;
+    }
+    .stay3 {
+        top: 15%;
+        left: 35%;
+    }
+    .stay45 {
+        top: 35%;
+        right: 35%;
+    }
+    .stay6 {
+        top: 15%;
+        right: 20%;
+    }
+    .stay78 {
+        top: 35%;
+        right: 5%;
+    }
+    .stayfont {
+        text-align: center;
+        color: black;
+        font-size: 17px;
+        font-family: 'Yusei Magic', sans-serif;
+        margin: 7px 0 0 0;
+    }
+    .stayup:hover {
+        opacity: 0.7;
+        top: 12%;
+        transition: all 100ms ease;
+    }
+    .staydown:hover {
+        opacity: 0.7;
+        top: 32%;
+        transition: all 100ms ease;
+    }
+}
+
+.picdiv {
+    position: relative;
+    overflow: hidden;
+}
+
+.bodycolor {
+    background-color: #81C7D4;
+    background-image: url('../picture/texture.png');
+}
+
+.absolute {
+    position: absolute;
+}
+
+.full {
+    width: 80%;
+}
+
+.pointimagestyle {
+    margin-top: 3%;
+    padding: 0;
+}
+
+.radius {
+    border-radius: 3%;
+}

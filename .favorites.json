@@ -1,0 +1,26 @@
+[
+    {
+        "type": "File",
+        "name": "/var/www/laravel_japan/routes/web.php",
+        "parent_id": null,
+        "workspaceRoot": "/var/www/laravel_japan",
+        "workspacePath": "routes/web.php",
+        "id": "76FlDYf2kMpy9ICg"
+    },
+    {
+        "type": "Directory",
+        "name": "/var/www/laravel_japan/resources/views",
+        "parent_id": null,
+        "workspaceRoot": "/var/www/laravel_japan",
+        "workspacePath": "resources/views",
+        "id": "sNi5PjuDrARQ9FvM"
+    },
+    {
+        "type": "Directory",
+        "name": "/var/www/laravel_japan/public",
+        "parent_id": null,
+        "workspaceRoot": "/var/www/laravel_japan",
+        "workspacePath": "public",
+        "id": "9UCd06W4vuNjQtkZ"
+    }
+]
