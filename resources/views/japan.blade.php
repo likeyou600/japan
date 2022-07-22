@@ -82,12 +82,12 @@
         <ul style="list-style: none;">
             <li class="absolute navi1 navli navliup">
                 <input type="button" class="navicon" style="background-image: url(picture/navpic/point.png);"
-                onclick="location.href='https://bakerychu.ddns.net/japan/point'">
+                onclick="window.location='{{ route("point")}}'">
                 <p class="navfont">景點簡介</p>
             </li>
             <li class="absolute navi2 navli navliup">
                 <input type="button" class="navicon" style="background-image: url(picture/navpic/home.png);"
-                onclick="location.href='https://bakerychu.ddns.net/japan/stay'">
+                onclick="window.location='{{ route("stay")}}'">
                 <p class="navfont">住宿簡介</p>
             </li>
             <li class="absolute navi3 navli navlidown">

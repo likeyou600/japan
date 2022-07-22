@@ -18,11 +18,11 @@ Route::get('japan', function () {
     return view('japan');
 });
 
-Route::get('/point', function () {
+Route::get('point', function () {
     return view('point');
-});
+})->name('point');
 
-Route::get('/stay', function () {
+Route::get('stay', function () {
     return view('stay');
 
-});
+})->name('stay');
