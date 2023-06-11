@@ -14,9 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('japan', function () {
+Route::get('/', function () {
     return view('japan');
-});
+})->name('japan');
 
 Route::get('point', function () {
     return view('point');
@@ -24,5 +24,4 @@ Route::get('point', function () {
 
 Route::get('stay', function () {
     return view('stay');
-
 })->name('stay');

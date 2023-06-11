@@ -65,21 +65,21 @@
     <header>
         <div style="position: relative;">
             <input type="image" src="picture/pluscircle.png" class="circleicon" style="z-index: 2;"
-                onclick="location.href='https://bakerychu.ddns.net/japan'">
+                onclick="window.location='{{ route("japan")}}'">
             <input type="image" src="picture/headerfont.png" class="headerfont" style="z-index: 2;"
-                onclick="location.href='https://bakerychu.ddns.net/japan'">
+                onclick="window.location='{{ route("japan")}}'">
         </div>
     </header>
     <nav class="navstyle">
         <ul style="list-style: none;">
             <li class="absolute navi1 navli">
                 <input type="button" class="navicon" style="background-image: url(picture/navpic/point.png);"
-                    onclick="location.href='https://bakerychu.ddns.net/japan/point'">
+                onclick="window.location='{{ route("point")}}'">
                 <p class="navfont">景點簡介</p>
             </li>
             <li class="absolute navi2 navli">
                 <input type="button" class="navicon" style="background-image: url(picture/navpic/home.png);"
-                    onclick="location.href='https://bakerychu.ddns.net/japan/stay'">
+                onclick="window.location='{{ route("stay")}}'">
                 <p class="navfont">住宿簡介</p>
             </li>
             <li class="absolute navi3 navli">
